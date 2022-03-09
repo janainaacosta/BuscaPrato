@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: sans-serif;
+    background-color: rgb(250, 246, 240);
+}
+
+header{
+background-color: rgb(233, 204, 169);
+width: 98%;
+margin: 0 auto;
+text-align: center;
+}
+#header{
+    color: rgb(116, 69, 7);
+}
+h1{
+    font-weight:100 ;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color:rgb(197, 113, 3);
+}
+h2{
+    color: rgb(170, 109, 30);
+    font-weight:100 ;
+}
+.btn{
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1.05rem;
+}
+.text{
+    opacity: 0.8;
+}
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container{
+    margin-left:50% ;
+    transform: translate(-50%);
+    max-height: 100vh;
+}
+.pratos-wrapper{
+    max-width: 1240px;
+    height: 100%;
+    margin:  0 auto;
+    padding: 2rem;
+    background: rgb(248, 235, 219);
+    text-align: center;
+}
+.pratos-search{
+    margin: 2rem 0;
+}
+
+.pratos-search cite{
+    font-size: 1rem;
+}
+.pratos-search-box{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+.caixa,
+.btn{
+    width: 100%;
+}
+.caixa{
+    padding:  0 1rem;
+    font-size:  1.1rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid rgb(116, 69, 7);
+    color: rgb(165, 105, 27);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.caixa::placeholder{
+    color: rgb(197, 113, 3);
+}
+.btn{
+    width: 95px;
+    height: 42px;
+    font-size: 1rem;
+    background: rgb(197, 113, 3);
+    color: white;
+    border: solid 1px rgb(116, 69, 7);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    transition: all 0.4s linear;
+}
+.btn:hover{
+    background: rgb(235, 134, 2);
+}
+.resultado{
+    margin-top: 4rem;
+}
+#pratos{
+    margin: 2.4rem 0;
+}
+.pratos-item{
+    border-radius: 1rem;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 20px 21px -21px black;
+    margin: 5rem 0;
+}
+.pratos-img img{
+    width: 100%;
+    display: block;
+}
+.nomePratos{
+    padding: 1.5rem 0.5rem;
+}
+.nomePratos h3{
+    font-size: 1.4rem;
+}
+@media screen and(min-width: 600px){
+    .pratos-search-box{
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
